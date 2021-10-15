@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.element{
+    box-sizing: border-box;
+}
+
+
+
+.main-header {
+    position: fixed;
+    width: 100%;
+    z-index: 3050;
+    background: #FFFFFF;
+    pa
+    backface-visibility: hidden;
+    transition: all 0.3s;
+  
+}
+.container{
+    width: 100%;
+    padding-right:15px ;
+    padding-left: 15px;
+    margin-right:auto;
+    margin-left: auto;
+ 
+}
+.container .rima{ 
+    
+    float: left;
+    margin: 20px;
+
+}
+.logo img{
+    height: 50px;
+    width: 80%;
+    border: 2px solid none;
+    margin-left: 50px;
+}
+ 
+.search-box {
+    width: 650px;;
+   margin-left: 50px;
+    display: flex;
+}
+ .search{
+     width: 650px;
+     border-top:2px solid #ced4da;
+     border-left:2px solid #ced4da;
+     border-bottom:2px solid #ff9900 ;
+     border-right:#0397d3;
+     padding: 5px;
+     height: 50px;
+     outline:none;
+     color: black;
+ }
+ .search:focus{
+     color: crimson;
+     box-shadow: darkgreen;
+ }
+ .search-btn{
+    width: 50px;
+    height:50px;
+    border: 2px solid  #0397d3 ; 
+    background:#0397d3;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+ }
+
+.curts img{
+    height:30px;
+    width: 40px;
+    margin-left:100px;
+    margin-top: 10px;
+}
+.mithil button {
+    background-color:honeydew;
+    color:hsl(0, 0%, 27%);
+     
+    display: inline-block;
+   text-decoration: none;
+    padding: 12px 25px;
+    margin-left: 10px;
+    border-radius: 5px ; 
+    border: 1px solid black;
+    height: 45px;
+    font-size: 15px;
+    
+}
+.rima{
+   display: flex;
+}
+ 
+.mithil  :hover{
+    background: rgb(93, 201, 93)  ;
+    color: blanchedalmond;
+    border: none;
+    
+    
+}
+
+.manubar{
+
+}
+
+.navbar{
+    display: flex;
+    align-items:center;
+    padding: 10px 10px;
+    height: 70px;
+    width: 100%;
+    font-size: 18px;
+    
+   
+}
+
+nav{
+    flex: 1;
+text-align: center;
+
+   
+    
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li{
+    display: inline-block;
+    margin: 15px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav ul li :hover{
+   
+    color:#007bff;
+}
+nav ul li a{
+    padding: 10px 10px;
+}
+
+.book{
+    border: 1px solid cornflowerblue ;
+    border-bottom:1px solid white ;
+  
+}
+
+.nav ul li a img{
+    height: 10px;
+    width: 10px;
+    margin-top: 10px;
+}
+
+.navbar2 nav {
+    font-size: 15px;
+    border-top:1px solid cornflowerblue;
+   
+}
+.navbar2 nav ul li sub a{
+    color:#E87E04 ;
+}
+.navbar2 nav ul li a bar{
+    color:#33c24d ;
+}
+
+
+.slider{
+    height: 250px;
+    width: 1200px;
+    margin-left: 80px;
+    margin-top:30px ;
+    
+    
+}
+
+.picture{
+    
+    width:100%;
+    margin-left: 65px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.picture img{
+    width: 388px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+   
+
+}
+.ppppp{
+    margin-top:30px;
+    margin-left: 75px;
+    color:#333333 ;
+    padding: 10px;
+}
+
+.sub-manu-1{
+    display: none;
+}
+
+.sub-manu-2{
+    display: none;
+}
+
+.sub-manu-3{
+    display: none;
+}
+
+.navbar2 nav  :hover .sub-manu-1{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background-color: white;
+}
+.navbar2 nav  :hover .sub-manu-2{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background-color: white
+   
+}
+.navbar2 nav  :hover .sub-manu-3{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background-color: white
+    
+    
+}
+.gift{
+    width: 25px;
+    margin-top:15px;
+}
+
+.sub{
+    color: chocolate;
+}
+.bar{
+    color: rgb(122, 190, 20);
+}
+.sitepic{
+    transform:translateX(-50%) rotate(-90deg) ;
+    margin-left: 20px;
+    position: fixed;
+    margin-top: 50px;
+    
+}
+.sitepic:hover{
+    color: blue;
+}
+
+.icon{
+   
+    position: fixed;
+ margin-left: 1282px;
+    width: 50px;
+    height: 30px;
+  
+
+}
+.icon1 {
+    margin-top: 40px;
+    margin-left: 60px;
+    position: fixed;
+    margin-left: 1300px;
+    
+      
+}
+.icon1:hover{
+    color: blue;
+}
+
+.box{
+    display: none;
+    position: absolute;
+    
+
+
+}
+.mithil:hover .box{
+    display: block;
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+    position: fixed;
+    display: flex;
+    
+
+
+}
