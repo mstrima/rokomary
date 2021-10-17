@@ -90,19 +90,146 @@
     border: 1px solid black;
     height: 45px;
     font-size: 15px;
+    position: relative;
     
 }
 .rima{
    display: flex;
 }
  
-.mithil  :hover{
+ #bolann:hover{
     background: rgb(93, 201, 93)  ;
     color: blanchedalmond;
     border: none;
-    
+  
     
 }
+
+.than{
+    width:278px ;
+    height: 368px;
+    background: white;
+    position: absolute;
+   visibility: hidden;
+    right: 101px;
+    top:65px;
+    
+
+}
+
+ .help {
+    background: lemonchiffon;
+    width: 233px;
+    height: 44px;
+
+   
+    margin-top:20px ;
+    border-radius: 5px solid blue;
+    padding: px;
+    margin-left: 18px;
+  
+ 
+}
+
+.aoo{
+    width: 110px;
+    height: 42px;
+    background-color: blue;
+   margin: 3px;
+    float: left;
+    color: white;
+    border-radius:5px;
+  
+  
+}
+
+.ji{
+    width: 25px;
+    height: 42px;
+   
+    float: left;
+    text-align: center;
+   margin-top: 5px;
+   margin-left: 2px;
+
+}
+.text{
+    width: 80px;
+    height: 42px;
+   
+    float: left;
+    text-align: center;
+    line-height: 42px;
+}
+
+.ioo{
+    width: 110px;
+    height: 42px;
+  background-color: rgb(240, 41, 6);
+  color: white;
+    float: left;
+    margin: 3px;
+    border-radius:5px;
+   
+}
+.new{
+   margin: 10px;
+   margin-left: 16px;
+}
+
+.the{
+   margin: 10px; 
+   margin-left: 15px;
+}
+
+ .with{
+     margin: 27px;
+ }
+
+.code{
+    height: 50px;
+    width: 170px;
+    margin: 10px;
+    border: none;
+ 
+}
+.visual{
+    height: 30px;
+    width: 160px;
+    border: 1px solid white;
+
+
+}
+
+
+
+.forget-passowerd{
+    color: blue;
+    text-decoration: none;
+    margin: 10px;
+
+}
+
+.stdio{
+    height: 50px;
+   
+    background-color: #33c24d;
+    color:white;
+    margin: 10px;
+    
+    border-radius: 2px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+
+.mithil:hover .than{
+    visibility: visible;
+
+
+}
+
+
 
 .manubar{
 
@@ -174,6 +301,8 @@ nav ul li a{
 }
 
 
+
+
 .slider{
     height: 250px;
     width: 1200px;
@@ -202,8 +331,9 @@ nav ul li a{
 .ppppp{
     margin-top:30px;
     margin-left: 75px;
-    color:#333333 ;
+    color:#424242 ;
     padding: 10px;
+    
 }
 
 .sub-manu-1{
@@ -270,6 +400,7 @@ nav ul li a{
  margin-left: 1282px;
     width: 50px;
     height: 30px;
+    color: blue;
   
 
 }
@@ -300,6 +431,117 @@ nav ul li a{
     position: fixed;
     display: flex;
     
+}
+
+
+.emmet{
+    height: 350px;
+    width: 100%;
+    border: 2px solid none;
+    margin-top: 20px;
+ 
+    margin-left: 110px;
+   
+    
 
 
 }
+
+p{
+    text-align: center;
+}
+ 
+.file{
+    width: 15%;
+    position: relative;
+    float: left;
+    
+
+}
+
+.file:hover .detail{
+    visibility: visible;
+}
+.detail{
+    width: 70%;
+    height: 300px;
+    background:rgba(0, 0, 0, 0.315);
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+
+
+}
+.col{
+    width:100%;
+    height: 40px;
+    background-color:#ff9900;
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+}
+
+.cols{
+    width:100%;
+    height: 40px;
+  background-color: #0397d3;
+    margin-top: 140px;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+}
+
+
+
+
+
+p{
+    margin-right: 80px;
+    
+}
+
+
+.ikhfa{
+    margin-top: 20px;
+    width: 100%;
+    height: 220PX;
+    border: 2px solid none;
+
+    
+}
+.area{
+    margin-left: 100px;
+    
+}
+.rosni{
+    height: 150px;
+    width: 175px;
+    background-image:url(image/custom-category.png );
+    background-repeat: no-repeat;
+    float: left;
+    color: white;
+    margin: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+.rfl{
+ margin-left: 50px; 
+ 
+}
+
+
+.port{
+    color: #333333;
+    
+.span{
+    color: #aaa;
+   
+}
+
+
+    
+
+
+
